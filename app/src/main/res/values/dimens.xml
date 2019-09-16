@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width">200dp</dimen>
+    <dimen name="picheight">200dp</dimen>
+
+    <dimen name="textspinnerwidth">125dp</dimen>
+    <dimen name="textspinnerheight">50dp</dimen>
+
+    <dimen name="intentTBw">200dp</dimen>
+    <dimen name="intentTBh">50dp</dimen>
+
+
+</resources>
