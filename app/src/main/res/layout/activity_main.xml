@@ -149,7 +149,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="suvChecked"
-            android:text="SUV" />
+            android:text="@string/SUV" />
 
         <RadioButton
             android:id="@+id/vanRB"
@@ -157,7 +157,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="vanChecked"
-            android:text="Van" />
+            android:text="@string/Van" />
 
         <RadioButton
             android:id="@+id/convertibleRB"
@@ -165,7 +165,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="convChecked"
-            android:text="Convertible " />
+            android:text="@string/Convertible" />
 
         <RadioButton
             android:id="@+id/truckRB"
@@ -173,7 +173,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="truckChecked"
-            android:text="Truck " />
+            android:text="@string/Truck" />
     </RadioGroup>
 
     <TextView

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Toolbox</string>
+    <string name="checkboxQ">Pay now? ($5 Discount)</string>
+
+    <string name="SUV">SUV</string>
+    <string name="Truck">Truck</string>
+    <string name="Convertible">Convertible</string>
+    <string name="Van">Van</string>
+
 </resources>
