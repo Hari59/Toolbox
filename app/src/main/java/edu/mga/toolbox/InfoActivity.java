@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.CheckBox;
 import android.widget.TextView;
+import android.view.View;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -30,5 +32,13 @@ public class InfoActivity extends AppCompatActivity {
             costperday = 25;
 
         str.setText("Cost Per Day:     $" + costperday);
+    }
+
+    public void checkDiscount(View v){
+        CheckBox checkbox = (CheckBox) findViewById(R.id.checkBox);
+        TextView discount = (TextView) findViewById(R.id.discountTV);
+        if(checkbox.isChecked()){
+           discount.setText("Discount       : -$5");
+        }
     }
 }

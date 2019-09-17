@@ -86,15 +86,15 @@
 
     <Button
         android:id="@+id/buttonPrevious"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/intentTBw"
+        android:layout_height="@dimen/intentTBh"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:drawableLeft="@android:drawable/arrow_down_float"
-        android:text="Previous"
         android:onClick="previous"
+        android:text="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -104,15 +104,15 @@
 
     <Button
         android:id="@+id/buttonNext"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/intentTBw"
+        android:layout_height="@dimen/intentTBh"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:drawableRight="@android:drawable/arrow_up_float"
-        android:text="Next"
         android:onClick="next"
+        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -178,8 +178,8 @@
 
     <TextView
         android:id="@+id/cost"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/intentTBw"
+        android:layout_height="@dimen/intentTBh"
         android:layout_marginStart="16dp"
         android:layout_marginTop="520dp"
         android:textSize="24sp"
@@ -188,12 +188,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/intentTBw"
+        android:layout_height="@dimen/intentTBh"
         android:layout_marginStart="208dp"
         android:layout_marginTop="520dp"
-        android:text="Continue"
         android:onClick="sendInfo"
+        android:text="Continue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
