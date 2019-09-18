@@ -3,11 +3,11 @@
     <dimen name="width">200dp</dimen>
     <dimen name="picheight">200dp</dimen>
 
-    <dimen name="textspinnerwidth">125dp</dimen>
+    <dimen name="textspinnerwidth">100dp</dimen>
     <dimen name="textspinnerheight">50dp</dimen>
 
-    <dimen name="intentTBw">200dp</dimen>
+    <dimen name="intentTBw">150dp</dimen>
     <dimen name="intentTBh">50dp</dimen>
 
-
+    <dimen name="paddingTop">15dp</dimen>
 </resources>

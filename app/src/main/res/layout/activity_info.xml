@@ -19,8 +19,8 @@
 
     <TextView
         android:id="@+id/days"
-        android:layout_width="@dimen/intentTBw"
-        android:layout_height="@dimen/intentTBh"
+        android:layout_width="205dp"
+        android:layout_height="46dp"
         android:layout_marginStart="76dp"
         android:layout_marginTop="164dp"
         android:text="Number of days: "
@@ -42,12 +42,35 @@
 
     <TextView
         android:id="@+id/discountTV"
-        android:layout_width="@dimen/intentTBw"
-        android:layout_height="@dimen/intentTBh"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
         android:layout_marginStart="76dp"
         android:layout_marginTop="288dp"
         android:text="Discounts:"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finalCost"
+        android:layout_width="254dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="428dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="340dp"
+        android:text="Calculate Cost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="calculateCost"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
